@@ -1,5 +1,5 @@
 body {
-    background-color: #faeff7;
+    background-color: hsl(315, 100%, 99%);
   }
 
   header {
@@ -41,15 +41,39 @@ nav h1 {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    gap: 30px;
+    gap: 1px;
   }
   
   .hero .left-side {
+    background-color: white;
     width: fit-content;
     padding-top: 200px;
   }
+
+  #about {
+    padding: 10px;
+    border-radius: 10px;
+    width: 200px;
+    height: 300px;
+  }
   
   .hero .right-side {
+    background-color:#e3fffe;
     width: fit-content;
     height: 100%;
+  }
+
+  .hero h1 {
+    font-size: 56px;
+    margin: 0;
+    font-family: 
+  } 
+
+  .gallery {
+    display: flex;
+    width: 200px;
+    height: 300px;
+    margin: auto;
+    gap: 20px;
+    padding: 20px;
   }
