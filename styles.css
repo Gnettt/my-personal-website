@@ -1,3 +1,55 @@
 body {
     background-color: #faeff7;
   }
+
+  header {
+    background-color: hwb(316 61% 0%);
+    border-bottom: 1.5px solid #454545;
+    padding: 0%;
+  }
+
+nav h1 {
+    color: #060606;
+    font-size:56px;
+    margin: 0;
+    padding-left: 10px;
+  }
+  
+  header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  nav ul {
+    display: flex;
+    list-style: none; 
+    gap: 20px;
+  }
+  
+  button {
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #3f2c3e;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .hero {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+  }
+  
+  .hero .left-side {
+    width: fit-content;
+    padding-top: 200px;
+  }
+  
+  .hero .right-side {
+    width: fit-content;
+    height: 100%;
+  }
