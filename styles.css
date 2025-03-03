@@ -46,12 +46,15 @@ nav h1 {
   
   .hero .left-side {
     background-color: white;
-    width: fit-content;
-    padding-top: 200px;
+    width: 800px;
+    padding-top: 10px;
+    padding-left: 10px;
   }
 
   #about {
-    padding: 10px;
+    -ms-flex-align: center;
+    padding-left: 300px;
+    padding-top: 0px;
     border-radius: 10px;
     width: 200px;
     height: 300px;
@@ -59,21 +62,36 @@ nav h1 {
   
   .hero .right-side {
     background-color:#e3fffe;
-    width: fit-content;
-    height: 100%;
+    width: 800px;
+    height: 500px;
+    padding-top: 10px;
   }
 
   .hero h1 {
     font-size: 56px;
     margin: 0;
-    font-family: 
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
   } 
 
-  .gallery {
+  .gallery img {
     display: flex;
     width: 200px;
     height: 300px;
-    margin: auto;
+    margin:o;
+    gap: 0px;
+    padding: 10px;
+  }
+
+  .gallery ul {
+    display: flex;
+    list-style: none;
     gap: 20px;
-    padding: 20px;
+  }
+
+  #heading{
+    font-size: 56px;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
   }
